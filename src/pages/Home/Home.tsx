@@ -12,9 +12,6 @@ import { useNavigate } from "react-router-dom";
 
 const Home = () => {
     const navigate = useNavigate();
-
-
-
     return (
         <div className="container">
             <div style={{ display: 'block', width: '100%', padding: 30 }}>
