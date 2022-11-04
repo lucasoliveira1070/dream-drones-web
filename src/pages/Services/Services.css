@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+}
+
+.container-item{
+    background-color: #EAEAEA;
+    display: flex;
+    flex-direction: row;
+    border-radius: 3em;
+    padding: 1em;
+    transition: .5s;
+    margin-top: 3em;
+}
+
+.container-item:hover{
+    background-color: #DDDDDD;
+}
+
+.service-img {
+    width: 450px;
+    height: 400px;
+    object-fit: cover;
+    margin: 3em;
+    border-radius: 10em;
+}
+
+.item-text{
+    margin-right: 0;
+    inline-size: 50em;
+    padding-top: 6em;
+    float: right;
+    word-wrap: break-word;
+
+}
+
+.info-div{
+    display: flex;
+    margin-top: 8em;
+    padding: .5em;
+    text-align: center;
+}
+
+.info-div h4{
+    margin: 0em 1em 1em 1em;
+    
+}

@@ -16,7 +16,7 @@ const Home = () => {
         <div className="container">
             <div style={{ display: 'block', width: '100%', padding: 30 }}>
                 <h1 className="title">Dream Drones</h1>
-                <Carousel pause="hover" indicators={false}>
+                <Carousel className="carousel" pause="hover" indicators={false}>
                     <Carousel.Item interval={1500}>
                         <img
                             className="d-block w-100"
@@ -44,10 +44,26 @@ const Home = () => {
                 <p className="mainText">
                     Nós da Dream Drones temos como objetivo oferecer a melhor experiência em entregas feitas por drones.<br />
                     Queremos oferecer serviços da maior qualidade possível, garantindo o seu conforto e rapidez em nossas entregas.<br />
-                    Conheça melhor nossos serviços e produtos.
+
                 </p>
+                <ul className="mainText">
+                    <p>Beneficios da entrega feita por drones:</p>
+                    <li>
+                        <p>Rapidez na entrega.</p>
+                    </li>
+                    <li>
+                        <p>Baixo risco de acidentes com a carga.</p>
+                    </li>
+                    <li>
+                        <p>Alta disponibilidade para entregas.</p>
+                    </li>
+                    <li>
+                        <p>Entregas a qualquer hora do dia.</p>
+                    </li>
+                </ul>
+                <p className="mainText">Conheça melhor nossos serviços e produtos.</p>
                 <div className="buttonDiv">
-                    <Button onClick={() => navigate('/products')} size="lg" color="#00BBF9">Serviços</Button>
+                    <Button onClick={() => navigate('/services')} size="lg" color="#00BBF9">Serviços</Button>
                 </div>
                 <Footer />
             </div>
